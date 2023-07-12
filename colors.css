@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.colors{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    /* align-items: center; */
+    justify-content: center; 
+}
+
+h2{
+    font-weight: 400;
+}
+
+.scheme-1{
+    background-color: #111111;
+    height: 200px;
+    align-items: center;
+}
+.scheme-1 h1{
+    color: #bd1010;
+}
+.scheme-1 h2{
+    color: #0000ab;
+}
+.scheme-1 button{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    border-top: #d31a1a solid 1px;
+    border-bottom: #0303d2 solid 1px;
+    height: 30px;
+    width: 142px;
+    text-align: center;
+    color: white;
+    border-left: none;
+}
+
+.scheme-2{
+    /* background-color: #07073a;  dark blue (bright) */
+    background-color: #020414;
+    height: 200px;
+    align-items: center;
+}
+.scheme-2 h1{
+    color: #06f3ff;
+}
+.scheme-2 h2{
+    color: #a0ffc2;
+}
+.scheme-2 button{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    border: #06f3ff solid 1px;
+    height: 30px;
+    width: 142px;
+    text-align: center;
+    color: white;
+}
+
+
+.scheme-3{
+    background-color: #141313;
+    height: 200px;
+    align-items: center;
+}
+.scheme-3 h1{
+    color: #ffd500;
+}
+.scheme-3 h2{
+    color: #c489e6;
+}
+.scheme-3 button{
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    border: #ffd500 solid 1px;
+    height: 30px;
+    width: 142px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: #ffffff;
+}
